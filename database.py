@@ -1,4 +1,4 @@
-```python
+python
 from pymongo import MongoClient
 import os
 from dotenv import load_dotenv
@@ -83,4 +83,3 @@ class Database:
     
     def get_advertisements(self):
         return list(self.db.advertisements.find({}))
-```
